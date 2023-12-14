@@ -1,0 +1,7 @@
+---
+- name: Launch vsftpd role
+  hosts: skillfactory-course
+  gather_facts: false
+  become: true
+  roles:
+    - vsftpd
